@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+   background-color:  #2f2f2fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card {
+    background: hsla(177, 87%, 79%, 1);
+
+background: linear-gradient(90deg, hsla(177, 87%, 79%, 1) 0%, hsla(235, 89%, 70%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(177, 87%, 79%, 1) 0%, hsla(235, 89%, 70%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(177, 87%, 79%, 1) 0%, hsla(235, 89%, 70%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BF8F4", endColorstr="#6F7BF7", GradientType=1 );
+    margin: 100px auto 0;
+    width: 90%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    max-width: 500px;
+    text-align: center;
+    
+    
+}
+
+.search{
+    margin-top: 5px;
+
+
+}
+
+input{
+    border-radius: 0.5rem;
+    text-align: center;
+    width: 344px;
+    height: 31px;
+    font-size: larger;
+    border: 0px;
+}
+
+
+
+
+ button{
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+img{
+    width: 13px;
+    margin-top: 6px;
+
+}
+
+.weather-icon{
+    width:170px ;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 45px;
+     font-weight: 400;
+     margin-top: -10px;
+
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: 10px;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+
+}
+
+.col img{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.humidity,.wind{
+    font-size: 30px;
+    margin-top: -6px;
+
+
+
+}
+.gap{width: 50px;}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    display: none;
+}
